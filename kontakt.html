@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Toby Nett | Kontakt Oss</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/kontakt.css">
+<!--fav-icon-->
+<link rel="shortcut icon" href="img/logo.ico"/>
+<link rel="stylesheet" href="/js/app.js">
+</head>
+
+<body>
+  <section class="main">
+    <!--navigation-->
+    <nav>
+        <!--logo-->
+        <a href="index.html" class="logo">
+            <img src="img/logo.png"/>
+        </a>
+        <!--menu-btn----------->
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-->
+        <ul class="menu">
+            <li><a href="/index.html">Hjem</a></li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+            <li><a href="/php/index.php">Medlemsområde</a></li>
+        </ul>
+    </nav>
+        <div class="contact">
+            <div id="container">
+              <h2>Kontakt oss</h2>
+              <form action="/ticket.html" id="contact_form">
+                <div class="name">
+                  <label for="name"></label>
+                  <input type="text" placeholder="Navn" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                  <label for="email"></label>
+                  <input type="email" placeholder="Epost" name="email" id="email_input" required>
+                </div>
+                <div class="subject">
+                  <label for="subject"></label>
+                  <input type="text" placeholder="Emne" name="subject" id="subject_input" required>
+                </div>
+                <div class="message">
+                  <label for="message"></label>
+                  <textarea name="message" placeholder="Melding" id="message_input" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                  <input type="submit" value="Send inn" id="form_button"/>
+                </div>
+              </form>
+            </div>
+            </div>
+    </section>
+    <!--footer------------->
+    <footer id="footer">
+        <p>Beskyttet av åndsverksloven © 2021 Toby Nett.</p>
+        <p>Alle rettigheter reservert.</p>
+    </footer>
+</body>
+
+</html>
